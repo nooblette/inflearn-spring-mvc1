@@ -1,3 +1,7 @@
 /스프링MVC-웹애플리케이션이해v2020-03-08.pdf
 /spring-mvc1-v20231224/
 /springmvc1-v2020-03-08/
+/.idea/*
+/.gradle/*
+/build/*
+/out/*
