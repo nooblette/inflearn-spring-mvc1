@@ -39,7 +39,7 @@ public class FrontControllerV1 extends HttpServlet {
 
 		// 매핑되는 컨트룰러가 없다면 요청 경로가 잘못된 것
 		if(controller == null) {
-			// 응답 코드로 404(BAD REQUEST)를 클라이언트에게 반환한다.
+			// 응답 코드로 404(NOT FOUND)를 클라이언트에게 반환한다.
 			response.setStatus(HttpServletResponse.SC_NOT_FOUND);
 			return;
 		}
