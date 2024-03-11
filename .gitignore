@@ -5,3 +5,4 @@
 /.gradle/*
 /build/*
 /out/*
+/src/main/java/hello/servlet/blog/*
