@@ -12,6 +12,6 @@ public class OldController implements Controller {
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		System.out.println("OldController.handleRequest");
-		return null;
+		return new ModelAndView("new-form"); // 뷰의 논리적 이름 기입(뷰 리졸버에서 물리적 위치로 변환)
 	}
 }
